@@ -89,6 +89,7 @@ namespace Project01_Introduction
                     taxRate = 0.5M;
                     taxLiability = taxRate * income;
                 }
+                //new
                 else if (200000 < income & income < 400000)
                 {
                     taxLiability = 0.25M;
